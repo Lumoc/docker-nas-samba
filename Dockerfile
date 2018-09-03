@@ -1,5 +1,5 @@
 FROM debian:stretch
-MAINTAINER Tobias Haber <kontakt@t-haber.de>
+MAINTAINER Florian Froehlich
 ENV DEBIAN_FRONTEND noninteractive
 
 RUN echo "deb http://ftp.de.debian.org/debian stretch main" > /etc/apt/sources.list
